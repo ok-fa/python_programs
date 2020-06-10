@@ -1,9 +1,9 @@
-print("this simple Python program asks for 8 diferent names and picks one of them at random")
-
 import random
 
-x = 1
-names = []
+print("this simple Python program asks for 8 diferent names and picks one of them at random")
+
+x = 1  #start counter
+names = []  #list that holds names
 
 while x <= 8:
   name = input(str(x) + ". Enter name: ")
